@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>CulturaPasión</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="" name="keywords" />
+        <meta content="" name="description" />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Icon Font Stylesheet -->
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet" />
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div
+            id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+        >
+            <div
+                class="spinner-border text-primary"
+                style="width: 3rem; height: 3rem"
+                role="status"
+            >
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Navbar & Hero Start -->
+        <div
+            class="container-fluid nav-bar sticky-top px-4 py-2 py-lg-0"
+            style="
+                box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+            "
+        >
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a href="" class="navbar-brand p-0">
+                    <h1 class="display-6 text-dark">CulturaPasión</h1>
+                    <!-- <img src="img/logo.png" alt="Logo"> -->
+                </a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse"
+                >
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav mx-auto py-0">
+                        <a href="index.html" class="nav-item nav-link"
+                            >Inicio</a
+                        >
+                        <a href="about.html" class="nav-item nav-link"
+                            >Sobre nosotros</a
+                        >
+                        <a href="catalog.html" class="nav-item nav-link active"
+                            >Catálogo</a
+                        >
+                        <a href="contact.html" class="nav-item nav-link"
+                            >Contacto</a
+                        >
+                    </div>
+                    <a
+                        href="contact.html"
+                        class="btn btn-primary rounded-pill py-2 px-4 flex-shrink-0"
+                        >Contáctanos</a
+                    >
+                </div>
+            </nav>
+        </div>
+        <!-- Navbar & Hero End -->
+        <!-- Header Start -->
+        <div class="container-fluid bg-breadcrumb bg2">
+            <div class="container text-center py-5" style="max-width: 900px">
+                <h4
+                    class="text-white display-4 mb-4 wow fadeInDown"
+                    data-wow-delay="0.1s"
+                >
+                    Catálogo
+                </h4>
+                <ol
+                    class="breadcrumb d-flex justify-content-center mb-0 wow fadeInDown"
+                    data-wow-delay="0.3s"
+                >
+                    <li class="breadcrumb-item">
+                        <a href="index.html">Inicio</a>
+                    </li>
+                    <li class="breadcrumb-item active text-primary">
+                        Catálogo
+                    </li>
+                </ol>
+            </div>
+        </div>
+        <!-- Header End -->
+
+        <!-- Blog Start -->
+        <div class="container-fluid blog pb-5 mt-5">
+            <div class="container pb-5">
+                <div
+                    class="text-center mx-auto pb-5 wow fadeInUp"
+                    data-wow-delay="0.2s"
+                    style="max-width: 800px"
+                >
+                    <h4 class="text-primary">Nuestro Blog</h4>
+                    <h1 class="display-5 mb-4">
+                        Explora las Últimas Noticias sobre Arte, Deportes y
+                        Cultura en España
+                    </h1>
+                    <p class="mb-0">
+                        Mantente informado sobre las últimas noticias en el
+                        mundo del arte, los deportes y la cultura en España.
+                        Desde eventos culturales innovadores hasta el análisis
+                        de la evolución de las tendencias deportivas y
+                        artísticas, nuestro blog te ofrece información relevante
+                        sobre el vibrante panorama cultural de España. Descubre
+                        los proyectos artísticos que están transformando el
+                        escenario cultural y cómo los deportes alcanzan nuevas
+                        alturas en el país.
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <a href="#">
+                                    <img
+                                        src="img/blog-item-1.jpg"
+                                        class="img-fluid w-100 rounded-top"
+                                        alt="Imagen"
+                                    />
+                                </a>
+                            </div>
+                            <div class="blog-content p-4">
+                                <a href="#" class="h4 d-inline-block mb-4">
+                                    La Revolución del Arte Contemporáneo en
+                                    España</a
+                                >
+                                <p class="mb-4">
+                                    Descubre cómo los artistas contemporáneos
+                                    españoles están redefiniendo el panorama del
+                                    arte. Este artículo analiza las tendencias
+                                    emergentes y los movimientos que están
+                                    tomando fuerza en el mundo del arte en
+                                    España.
+                                </p>
+                                <a href="contact.html">
+                                    <button
+                                        class="btn btn-primary w-100 py-3"
+                                        type="submit"
+                                    >
+                                        Leer más
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <a href="#">
+                                    <img
+                                        src="img/blog-item-2.jpg"
+                                        class="img-fluid w-100 rounded-top"
+                                        alt="Imagen"
+                                    />
+                                </a>
+                            </div>
+                            <div class="blog-content p-4">
+                                <a href="#" class="h4 d-inline-block mb-4">
+                                    El Futuro del Deporte en España: Nuevas
+                                    Fronteras</a
+                                >
+                                <p class="mb-4">
+                                    Aprende sobre las nuevas tendencias
+                                    deportivas en España, desde el auge de los
+                                    deportes urbanos hasta la evolución de los
+                                    eventos más tradicionales. Este artículo
+                                    destaca los cambios que están transformando
+                                    el panorama deportivo español.
+                                </p>
+                                <a href="contact.html">
+                                    <button
+                                        class="btn btn-primary w-100 py-3"
+                                        type="submit"
+                                    >
+                                        Leer más
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <a href="#">
+                                    <img
+                                        src="img/blog-item-3.jpg"
+                                        class="img-fluid w-100 rounded-top"
+                                        alt="Imagen"
+                                    />
+                                </a>
+                            </div>
+                            <div class="blog-content p-4">
+                                <a href="#" class="h4 d-inline-block mb-4">
+                                    La Cultura Española: Un Viaje a Través de
+                                    las Tradiciones</a
+                                >
+                                <p class="mb-4">
+                                    Explora las tradiciones culturales de España
+                                    y cómo se preservan y transforman en el
+                                    siglo XXI. Este artículo ofrece una visión
+                                    sobre cómo las festividades y las costumbres
+                                    españolas continúan siendo un pilar de la
+                                    identidad nacional.
+                                </p>
+                                <a href="contact.html">
+                                    <button
+                                        class="btn btn-primary w-100 py-3"
+                                        type="submit"
+                                    >
+                                        Leer más
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <a href="#">
+                                    <img
+                                        src="img/blog-item-4.jpg"
+                                        class="img-fluid w-100 rounded-top"
+                                        alt="Imagen"
+                                    />
+                                </a>
+                            </div>
+                            <div class="blog-content p-4">
+                                <a href="#" class="h4 d-inline-block mb-4">
+                                    La Música Española: Influencias y Tendencias
+                                    Actuales</a
+                                >
+                                <p class="mb-4">
+                                    En este artículo analizamos las últimas
+                                    tendencias en la música española, desde el
+                                    pop y el flamenco hasta los géneros más
+                                    vanguardistas. Descubre cómo los artistas
+                                    españoles están fusionando sonidos
+                                    tradicionales con nuevos estilos.
+                                </p>
+                                <a href="contact.html">
+                                    <button
+                                        class="btn btn-primary w-100 py-3"
+                                        type="submit"
+                                    >
+                                        Leer más
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <a href="#">
+                                    <img
+                                        src="img/blog-item-5.jpg"
+                                        class="img-fluid w-100 rounded-top"
+                                        alt="Imagen"
+                                    />
+                                </a>
+                            </div>
+                            <div class="blog-content p-4">
+                                <a href="#" class="h4 d-inline-block mb-4">
+                                    El Impacto de los Festivales Culturales en
+                                    España</a
+                                >
+                                <p class="mb-4">
+                                    Los festivales culturales en España son una
+                                    parte vital del patrimonio cultural. Este
+                                    artículo explora cómo estos eventos impulsan
+                                    el turismo, fomentan la creatividad y
+                                    preservan las tradiciones en todo el país.
+                                </p>
+                                <a href="contact.html">
+                                    <button
+                                        class="btn btn-primary w-100 py-3"
+                                        type="submit"
+                                    >
+                                        Leer más
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <a href="#">
+                                    <img
+                                        src="img/blog-item-6.jpg"
+                                        class="img-fluid w-100 rounded-top"
+                                        alt="Imagen"
+                                    />
+                                </a>
+                            </div>
+                            <div class="blog-content p-4">
+                                <a href="#" class="h4 d-inline-block mb-4">
+                                    Arte Urbano en España: Transformando las
+                                    Ciudades</a
+                                >
+                                <p class="mb-4">
+                                    El arte urbano en España está tomando
+                                    protagonismo en las ciudades más
+                                    importantes. Este artículo examina cómo los
+                                    grafitis, murales y otras formas de arte
+                                    urbano están dando nueva vida a las calles y
+                                    espacios públicos.
+                                </p>
+                                <a href="contact.html">
+                                    <button
+                                        class="btn btn-primary w-100 py-3"
+                                        type="submit"
+                                    >
+                                        Leer más
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <a href="#">
+                                    <img
+                                        src="img/blog-item-7.jpg"
+                                        class="img-fluid w-100 rounded-top"
+                                        alt="Imagen"
+                                    />
+                                </a>
+                            </div>
+                            <div class="blog-content p-4">
+                                <a href="#" class="h4 d-inline-block mb-4">
+                                    El Crecimiento del Arte Digital en España</a
+                                >
+                                <p class="mb-4">
+                                    En este artículo exploramos cómo el arte
+                                    digital está ganando popularidad en España.
+                                    Analizamos los artistas que están abriendo
+                                    nuevos caminos en el mundo del arte digital
+                                    y su influencia en la cultura visual
+                                    moderna.
+                                </p>
+                                <a href="contact.html">
+                                    <button
+                                        class="btn btn-primary w-100 py-3"
+                                        type="submit"
+                                    >
+                                        Leer más
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <a href="#">
+                                    <img
+                                        src="img/blog-item-8.jpg"
+                                        class="img-fluid w-100 rounded-top"
+                                        alt="Imagen"
+                                    />
+                                </a>
+                            </div>
+                            <div class="blog-content p-4">
+                                <a href="#" class="h4 d-inline-block mb-4">
+                                    El Renacer del Flamenco en la Cultura
+                                    Contemporánea</a
+                                >
+                                <p class="mb-4">
+                                    El flamenco, una de las tradiciones más
+                                    emblemáticas de España, sigue evolucionando
+                                    y adaptándose a nuevas tendencias. Este
+                                    artículo explora cómo los artistas
+                                    contemporáneos están renovando este género
+                                    clásico para las nuevas generaciones.
+                                </p>
+                                <a href="contact.html">
+                                    <button
+                                        class="btn btn-primary w-100 py-3"
+                                        type="submit"
+                                    >
+                                        Leer más
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <a href="#">
+                                    <img
+                                        src="img/blog-item-9.jpg"
+                                        class="img-fluid w-100 rounded-top"
+                                        alt="Imagen"
+                                    />
+                                </a>
+                            </div>
+                            <div class="blog-content p-4">
+                                <a href="#" class="h4 d-inline-block mb-4">
+                                    La Moda en España: La Influencia de los
+                                    Diseñadores Locales</a
+                                >
+                                <p class="mb-4">
+                                    Analizamos cómo los diseñadores de moda
+                                    españoles están llevando la creatividad y la
+                                    innovación a los pasarelas, transformando la
+                                    moda global y destacando la riqueza cultural
+                                    de España.
+                                </p>
+                                <a href="contact.html">
+                                    <button
+                                        class="btn btn-primary w-100 py-3"
+                                        type="submit"
+                                    >
+                                        Leer más
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <a href="#">
+                                    <img
+                                        src="img/blog-item-10.jpg"
+                                        class="img-fluid w-100 rounded-top"
+                                        alt="Imagen"
+                                    />
+                                </a>
+                            </div>
+                            <div class="blog-content p-4">
+                                <a href="#" class="h4 d-inline-block mb-4">
+                                    Los Museos de Arte Moderno más Importantes
+                                    en España</a
+                                >
+                                <p class="mb-4">
+                                    España alberga algunos de los museos de arte
+                                    moderno más renombrados del mundo. Este
+                                    artículo ofrece una guía sobre los mejores
+                                    museos para visitar y disfrutar del arte
+                                    moderno en el país.
+                                </p>
+                                <a href="contact.html">
+                                    <button
+                                        class="btn btn-primary w-100 py-3"
+                                        type="submit"
+                                    >
+                                        Leer más
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <a href="#">
+                                    <img
+                                        src="img/blog-item-11.jpg"
+                                        class="img-fluid w-100 rounded-top"
+                                        alt="Imagen"
+                                    />
+                                </a>
+                            </div>
+                            <div class="blog-content p-4">
+                                <a href="#" class="h4 d-inline-block mb-4">
+                                    La Literatura Española: Autores y Obras
+                                    Fundamentales</a
+                                >
+                                <p class="mb-4">
+                                    La literatura española ha sido una de las
+                                    más influyentes del mundo. En este artículo
+                                    te presentamos a los escritores más
+                                    destacados de la historia española y sus
+                                    obras más importantes.
+                                </p>
+                                <a href="contact.html">
+                                    <button
+                                        class="btn btn-primary w-100 py-3"
+                                        type="submit"
+                                    >
+                                        Leer más
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <a href="#">
+                                    <img
+                                        src="img/blog-item-12.jpg"
+                                        class="img-fluid w-100 rounded-top"
+                                        alt="Imagen"
+                                    />
+                                </a>
+                            </div>
+                            <div class="blog-content p-4">
+                                <a href="#" class="h4 d-inline-block mb-4">
+                                    Los Grandes Festivales de Cine en España</a
+                                >
+                                <p class="mb-4">
+                                    España es hogar de algunos de los festivales
+                                    de cine más prestigiosos del mundo. Este
+                                    artículo explora los festivales más
+                                    importantes del país y su impacto en la
+                                    industria cinematográfica global.
+                                </p>
+                                <a href="contact.html">
+                                    <button
+                                        class="btn btn-primary w-100 py-3"
+                                        type="submit"
+                                    >
+                                        Leer más
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Blog End -->
+
+        <!-- Footer Start -->
+        <div
+            class="container-fluid footer py-5 wow fadeIn"
+            data-wow-delay="0.2s"
+        >
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-6 col-xl-4">
+                        <div class="footer-item">
+                            <a href="index.html" class="p-0">
+                                <h4 class="text-white mb-4">CulturaPasión</h4>
+                            </a>
+                            <p class="mb-2">
+                                Nuestro compromiso con tu éxito cultural va más
+                                allá de nuestros servicios. En nuestro pie de
+                                página, encontrarás acceso rápido a información
+                                esencial sobre las últimas noticias y eventos en
+                                el mundo del arte, el deporte y la cultura en
+                                España.
+                            </p>
+                            <div class="d-flex align-items-center">
+                                <i
+                                    class="fas fa-map-marker-alt text-primary me-3"
+                                ></i>
+                                <p class="text-white mb-0">
+                                    P.º de la Castellana, 210, 2º, Chamartín,
+                                    28046 Madrid, España
+                                </p>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <i
+                                    class="fas fa-envelope text-primary me-3"
+                                ></i>
+                                <p class="text-white mb-0">
+                                    cultura_pasion@gmail.com
+                                </p>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <i
+                                    class="fa fa-phone-alt text-primary me-3"
+                                ></i>
+                                <p class="text-white mb-0">+34915045963</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item">
+                            <h4 class="text-white mb-4">Enlaces Rápidos</h4>
+                            <a href="index.html"
+                                ><i class="fas fa-angle-right me-2"></i>
+                                Inicio</a
+                            >
+                            <a href="terms-of-use.html"
+                                ><i class="fas fa-angle-right me-2"></i>Términos
+                                de Uso</a
+                            >
+                            <a href="privacy-policy.html"
+                                ><i class="fas fa-angle-right me-2"></i>
+                                Política de Privacidad</a
+                            >
+                            <a href="cookie-policy.html"
+                                ><i class="fas fa-angle-right me-2"></i>
+                                Política de Cookies</a
+                            >
+                            <a href="disclaimer.html"
+                                ><i class="fas fa-angle-right me-2"></i>
+                                Descargo de Responsabilidad</a
+                            >
+                            <a href="business-model.html"
+                                ><i class="fas fa-angle-right me-2"></i> Modelo
+                                de Negocio</a
+                            >
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-5">
+                        <div class="footer-item">
+                            <h4 class="text-white mb-4">Horario de Apertura</h4>
+                            <div class="opening-date mb-3 pb-3">
+                                <div class="opening-clock flex-shrink-0">
+                                    <h6 class="text-white mb-0 me-auto">
+                                        Lunes - Viernes:
+                                    </h6>
+                                    <p class="mb-0">
+                                        <i
+                                            class="fas fa-clock text-primary me-2"
+                                        ></i>
+                                        11:00 AM - 16:00 PM
+                                    </p>
+                                </div>
+                                <div class="opening-clock flex-shrink-0">
+                                    <h6 class="text-white mb-0 me-auto">
+                                        Sábado - Domingo:
+                                    </h6>
+                                    <p class="mb-0">
+                                        <i
+                                            class="fas fa-clock text-primary me-2"
+                                        ></i>
+                                        09:00 AM - 17:00 PM
+                                    </p>
+                                </div>
+                                <div class="opening-clock flex-shrink-0">
+                                    <h6 class="text-white mb-0 me-auto">
+                                        Festivos:
+                                    </h6>
+                                    <p class="mb-0">
+                                        <i
+                                            class="fas fa-clock text-primary me-2"
+                                        ></i>
+                                        09:00 AM - 17:00 PM
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Back to Top -->
+        <a
+            href="#"
+            class="btn btn-primary btn-lg-square rounded-circle back-to-top"
+            ><i class="fa fa-arrow-up"></i
+        ></a>
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">Consentimiento de Cookies</h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    Este sitio web utiliza
+                    <a href="privacy-policy.html">política de privacidad</a>
+                    para ofrecerte una mejor experiencia de navegación, enfocada
+                    en noticias relacionadas con arte, deportes y cultura en
+                    España. Puedes obtener más detalles en nuestra
+                    <a href="cookie-policy.html">política de cookies</a>.
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">Aceptar</button>
+                <button class="cookie-button" id="declineBtn">Rechazar</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/cookiebanner.js"></script>
+    </body>
+</html>
